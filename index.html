@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rares Roca — Senior Backend Engineer</title>
+  <meta name="description" content="Rares Roca is a senior backend engineer in Cluj-Napoca, Romania. 8+ years building Ruby on Rails, PostgreSQL and Sidekiq systems for Doctolib, Deliveroo, THENX and Moteefe.">
+  <meta name="author" content="Rares Roca">
+  <link rel="canonical" href="https://raresroca.com/">
+  <meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e1116" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://raresroca.com/">
+  <meta property="og:title" content="Rares Roca — Senior Backend Engineer">
+  <meta property="og:description" content="I build Rails backends that keep working when it matters. 8+ years, 15M+ users, remote since 2019.">
+  <meta property="og:image" content="https://raresroca.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="profile:first_name" content="Rares">
+  <meta property="profile:last_name" content="Roca">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@raresroca05">
+  <meta name="twitter:title" content="Rares Roca — Senior Backend Engineer">
+  <meta name="twitter:description" content="I build Rails backends that keep working when it matters.">
+  <meta name="twitter:image" content="https://raresroca.com/og-image.png">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    (function () {
+      document.documentElement.classList.add('js');
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Rares Roca",
+    "url": "https://raresroca.com/",
+    "jobTitle": "Senior Backend Engineer",
+    "address": { "@type": "PostalAddress", "addressLocality": "Cluj-Napoca", "addressCountry": "RO" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Babeș-Bolyai University" },
+    "knowsAbout": ["Ruby on Rails", "Ruby", "PostgreSQL", "Redis", "Sidekiq", "React", "TypeScript", "AWS", "Docker"],
+    "sameAs": [
+      "https://www.linkedin.com/in/raresroca/",
+      "https://github.com/raresroca05",
+      "https://x.com/raresroca05"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57l-.02-2.04c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .1-.78.42-1.3.76-1.6-2.67-.31-5.47-1.34-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.62-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .32.21.7.82.57A12 12 0 0 0 12 .3"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path fill="currentColor" d="M18.9 1.15h3.68l-8.04 9.19L24 22.85h-7.4l-5.8-7.59-6.64 7.59H.47l8.6-9.83L0 1.15h7.6l5.24 6.93 6.06-6.93Zm-1.29 19.5h2.04L6.49 3.24H4.3l13.31 17.41Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 6.5A1.5 1.5 0 0 1 4.5 5h15A1.5 1.5 0 0 1 21 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5v-11Zm.5.3 8.5 6.2 8.5-6.2"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M6.6 3.5h2.6l1.5 4-2 1.3a11 11 0 0 0 6.5 6.5l1.3-2 4 1.5v2.6A2.1 2.1 0 0 1 18.4 19.5 15 15 0 0 1 4.5 5.6 2.1 2.1 0 0 1 6.6 3.5Z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7M8 7h9v9"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 9h10.5v10.5H9zM15 9V4.5H4.5V15H9"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/></g></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11Zm0-8.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/></symbol>
+  </svg>
+
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="top">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top" aria-label="Rares Roca, back to top">
+        <span class="brand-mark">RR</span>
+        <span class="brand-name">Rares Roca</span>
+      </a>
+      <nav class="nav-links" id="nav-links" aria-label="Main">
+        <a href="#story">Story</a>
+        <a href="#work">What I do</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-tools">
+        <button class="icon-btn theme-toggle" type="button" aria-label="Switch light or dark theme">
+          <svg class="i i-sun"><use href="#i-sun"/></svg>
+          <svg class="i i-moon"><use href="#i-moon"/></svg>
+        </button>
+        <button class="icon-btn menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="status"><span class="pulse"></span>Open to long-term roles</p>
+          <p class="hello">Hi, I'm Rares Roca —</p>
+          <h1>a backend engineer who <em>owns the outcome</em>, not just the ticket.</h1>
+          <p class="lead">For 8+ years I've built and run production systems for healthcare, food delivery, fitness and e-commerce products. Mostly Ruby on Rails, PostgreSQL, Redis and Sidekiq, with React when the job needs it.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="mailto:rares.roca05@gmail.com"><svg class="i"><use href="#i-mail"/></svg>Say hello</a>
+            <a class="btn btn-ghost" href="rares-roca-cv.pdf" download><svg class="i"><use href="#i-download"/></svg>Download CV</a>
+            <span class="socials">
+              <a class="icon-btn" href="https://www.linkedin.com/in/raresroca/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="i"><use href="#i-linkedin"/></svg></a>
+              <a class="icon-btn" href="https://github.com/raresroca05" target="_blank" rel="noopener" aria-label="GitHub"><svg class="i"><use href="#i-github"/></svg></a>
+            </span>
+          </div>
+        </div>
+
+        <figure class="telemetry" aria-label="My career as a climbing line, from 2017 to today">
+          <div class="tm-head">
+            <span class="tm-file"><span class="tm-dot"></span>career.log</span>
+            <span class="tm-live">live</span>
+          </div>
+          <svg class="tm-chart" viewBox="0 0 400 168" role="img" aria-labelledby="tm-title">
+            <title id="tm-title">Career line from my first job in 2017 to today, with THENX in 2020 and Doctolib in 2023 marked</title>
+            <defs>
+              <linearGradient id="tm-fill" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="var(--accent)" stop-opacity=".28"/>
+                <stop offset="1" stop-color="var(--accent)" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+            <g class="tm-grid">
+              <line x1="12" y1="30" x2="388" y2="30"/>
+              <line x1="12" y1="70" x2="388" y2="70"/>
+              <line x1="12" y1="110" x2="388" y2="110"/>
+              <line x1="12" y1="150" x2="388" y2="150"/>
+            </g>
+            <path class="tm-area" d="M12,132 C20.3,129.0 45.3,119.3 62,114 C78.7,108.7 97.0,107.3 112,100 C127.0,92.7 141.3,72.7 152,70 C162.7,67.3 166.0,85.3 176,84 C186.0,82.7 199.3,68.3 212,62 C224.7,55.7 241.3,46.7 252,46 C262.7,45.3 266.0,60.3 276,58 C286.0,55.7 300.3,35.0 312,32 C323.7,29.0 333.3,42.7 346,40 C358.7,37.3 381.0,20.0 388,16 L388,150 L12,150 Z"/>
+            <path class="tm-line" pathLength="1" d="M12,132 C20.3,129.0 45.3,119.3 62,114 C78.7,108.7 97.0,107.3 112,100 C127.0,92.7 141.3,72.7 152,70 C162.7,67.3 166.0,85.3 176,84 C186.0,82.7 199.3,68.3 212,62 C224.7,55.7 241.3,46.7 252,46 C262.7,45.3 266.0,60.3 276,58 C286.0,55.7 300.3,35.0 312,32 C323.7,29.0 333.3,42.7 346,40 C358.7,37.3 381.0,20.0 388,16"/>
+            <g class="tm-marks">
+              <circle cx="152" cy="70" r="4"/>
+              <text x="152" y="58" text-anchor="middle">THENX</text>
+              <circle cx="252" cy="46" r="4"/>
+              <text x="252" y="34" text-anchor="middle">Deliveroo</text>
+              <circle cx="312" cy="32" r="4"/>
+              <text x="312" y="20" text-anchor="middle">Doctolib</text>
+              <circle class="tm-now" cx="388" cy="16" r="5"/>
+            </g>
+            <g class="tm-axis">
+              <text x="12" y="165">2017</text>
+              <text x="112" y="165" text-anchor="middle">2019</text>
+              <text x="212" y="165" text-anchor="middle">2021</text>
+              <text x="312" y="165" text-anchor="middle">2023</text>
+              <text x="388" y="165" text-anchor="end">now</text>
+            </g>
+          </svg>
+          <dl class="tm-read">
+            <div><dt>In production</dt><dd>8+ yrs</dd></div>
+            <div><dt>Users migrated</dt><dd>15M+</dd></div>
+            <div><dt>Main stack</dt><dd>Rails · Postgres</dd></div>
+            <div><dt>Remote since</dt><dd>2019</dd></div>
+          </dl>
+        </figure>
+      </div>
+
+      <div class="wrap">
+        <ul class="logo-strip" aria-label="Companies I've worked with">
+          <li>Doctolib</li>
+          <li>Deliveroo</li>
+          <li>Moteefe</li>
+          <li>THENX</li>
+          <li>3Pillar Global</li>
+          <li>Wolfpack Digital</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="story">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="kicker"><span>01</span> My story</p>
+          <h2>From WordPress shops to platforms <em>millions</em> use.</h2>
+          <p class="section-lead">I went to school in Cluj-Napoca and I still live here. I started by building online shops, fell for Ruby, and have spent most of my career in remote product teams across Europe and the US.</p>
+        </header>
+
+        <ol class="timeline">
+          <li class="reveal">
+            <span class="t-year">2017</span>
+            <div class="t-body">
+              <h3>First paid work</h3>
+              <p class="t-where">WordPress developer · Casa din Piatra</p>
+              <p>WordPress themes and plugins for e-commerce sites. Fast pages, phones first, and clients who notice every detail.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="t-year">2018</span>
+            <div class="t-body">
+              <h3>Ruby on Rails, in Cluj</h3>
+              <p class="t-where">Software engineer · Greppy Systems, then Wolfpack Digital</p>
+              <p>Rails backends and APIs for client apps, working side by side with design and mobile teams. This is where Rails became home.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="t-year">2019</span>
+            <div class="t-body">
+              <h3>Bigger systems, and going independent</h3>
+              <p class="t-where">Software engineer · 3Pillar Global</p>
+              <p>Backend services and SQL tuning for customer products. The same year I started taking remote work on my own, and started my degree at Babeș-Bolyai University.</p>
+            </div>
+          </li>
+          <li class="reveal t-highlight">
+            <span class="t-year">2020</span>
+            <div class="t-body">
+              <h3>Moving 15 million users to Rails</h3>
+              <p class="t-where">Senior full-stack engineer · THENX</p>
+              <p>I led the move of a legacy PHP API to Ruby on Rails for a fitness platform with more than 15 million users. I moved the data from MySQL to PostgreSQL and fixed duplicate users and Stripe subscriptions on the way, without breaking anything for paying customers.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="t-year">2021</span>
+            <div class="t-body">
+              <h3>Commerce at scale</h3>
+              <p class="t-where">Senior full-stack engineer · Moteefe</p>
+              <p>Rails services for a print-on-demand commerce platform. Faster queries, safer releases and better monitoring, so incidents got shorter.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="t-year">2022</span>
+            <div class="t-body">
+              <h3>Food delivery, where every second counts</h3>
+              <p class="t-where">Senior full-stack engineer · Deliveroo</p>
+              <p>Backend and frontend work in a high-scale ordering system. Refactored old services, tuned the database and tightened CI so releases stopped being scary.</p>
+            </div>
+          </li>
+          <li class="reveal t-highlight">
+            <span class="t-year">2023</span>
+            <div class="t-body">
+              <h3>Healthcare, and wearing every hat</h3>
+              <p class="t-where">Senior full-stack engineer · Doctolib</p>
+              <p>Rails and React features for a healthcare platform millions of patients rely on. Every two weeks I rotated through product manager, feature architect and tech lead roles.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="t-year">2025</span>
+            <div class="t-body">
+              <h3>AI becomes part of the job</h3>
+              <p class="t-where">Personal project · Assista AI</p>
+              <p>I built a Rails AI assistant connected to OpenAI, Google, Microsoft and Linear. It changed how I work: today I plan, build and review with Claude Code and my own custom skills, with tests as the final judge.</p>
+            </div>
+          </li>
+          <li class="reveal t-now">
+            <span class="t-year">Now</span>
+            <div class="t-body">
+              <h3>Independent senior engineer</h3>
+              <p class="t-where">Remote · Cluj-Napoca, Romania</p>
+              <p>Rails, PostgreSQL, background jobs and AI tools I've shaped to fit how I work. I'm looking for a long-term team where I can build things that last.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="work">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="kicker"><span>02</span> What I do</p>
+          <h2>The backend work that keeps a product <em>standing</em>.</h2>
+        </header>
+
+        <div class="cards">
+          <article class="card reveal">
+            <span class="card-num">A</span>
+            <h3>Rails backends and APIs</h3>
+            <p>APIs for web and mobile apps, clean data models, and code the next person can read without a guide.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-num">B</span>
+            <h3>Jobs that don't get lost</h3>
+            <p>Sidekiq and Redis workflows with retries, queues, webhooks and third-party syncs that recover on their own.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-num">C</span>
+            <h3>Data you can trust</h3>
+            <p>PostgreSQL and MySQL migrations, clean-ups, indexes and query tuning. I fix the cause, not the symptom.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-num">D</span>
+            <h3>Production, end to end</h3>
+            <p>From logs and SQL to the fix, the regression test, the rollout and the check that it really worked.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-num">E</span>
+            <h3>Full-stack when needed</h3>
+            <p>React and TypeScript screens that fit the backend behind them, built with the product team, not after it.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-num">F</span>
+            <h3>AI in the workflow</h3>
+            <p>Claude Code, Cursor and custom skills to explore, build and review faster. Docs, code and tests stay the source of truth.</p>
+          </article>
+        </div>
+
+        <div class="how reveal">
+          <h3 class="how-title">How I work</h3>
+          <ul class="principles">
+            <li><strong>Own the outcome.</strong> From the first question to the follow-up after release, not just the ticket.</li>
+            <li><strong>Small steps beat big rewrites.</strong> I modernise old code bit by bit, with tests and monitoring around what matters.</li>
+            <li><strong>Talk in impact.</strong> I explain the risk, the options and my recommendation, in words everyone in the room understands.</li>
+            <li><strong>Ask early.</strong> Unclear requirements get questions on day one, and a small first version if doubt remains.</li>
+          </ul>
+        </div>
+
+        <div class="toolbox reveal">
+          <h3 class="how-title">Toolbox</h3>
+          <ul class="chips">
+            <li class="chip-strong">Ruby</li>
+            <li class="chip-strong">Ruby on Rails</li>
+            <li class="chip-strong">RSpec</li>
+            <li class="chip-strong">Sidekiq</li>
+            <li class="chip-strong">PostgreSQL</li>
+            <li>MySQL</li>
+            <li>Redis</li>
+            <li>REST APIs</li>
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>JavaScript</li>
+            <li>Node.js</li>
+            <li>Next.js</li>
+            <li>AWS</li>
+            <li>Heroku</li>
+            <li>Docker</li>
+            <li>GitHub Actions</li>
+            <li>CircleCI</li>
+            <li>Claude Code</li>
+            <li>Cursor</li>
+            <li>OpenAI API</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="kicker"><span>03</span> Portfolio</p>
+          <h2>Products I've <em>helped build</em>.</h2>
+          <p class="section-lead">Real products, used by real people. Click any card to see the product.</p>
+        </header>
+
+        <div class="work-grid">
+          <a class="work reveal" href="https://www.doctolib.fr" target="_blank" rel="noopener">
+            <div class="work-top"><span class="tag">Healthcare</span><span class="years">2023 – 2024</span></div>
+            <h3>Doctolib</h3>
+            <p>Online doctor booking for patients across France, Germany and Italy. I built Rails and React features with a close eye on data, speed and reliability.</p>
+            <span class="work-link">doctolib.fr<svg class="i"><use href="#i-arrow"/></svg></span>
+          </a>
+          <a class="work reveal" href="https://deliveroo.co.uk" target="_blank" rel="noopener">
+            <div class="work-top"><span class="tag">Food delivery</span><span class="years">2022 – 2023</span></div>
+            <h3>Deliveroo</h3>
+            <p>Food delivery across the UK and Europe. Backend and frontend work in a high-volume ordering system, plus safer releases.</p>
+            <span class="work-link">deliveroo.co.uk<svg class="i"><use href="#i-arrow"/></svg></span>
+          </a>
+          <a class="work reveal" href="https://www.moteefe.io" target="_blank" rel="noopener">
+            <div class="work-top"><span class="tag">E-commerce</span><span class="years">2021 – 2022</span></div>
+            <h3>Moteefe</h3>
+            <p>Print-on-demand merch, sold worldwide with no stock. Rails services, faster queries and better monitoring.</p>
+            <span class="work-link">moteefe.io<svg class="i"><use href="#i-arrow"/></svg></span>
+          </a>
+          <a class="work reveal" href="https://thenx.com" target="_blank" rel="noopener">
+            <div class="work-top"><span class="tag">Fitness</span><span class="years">2020 – 2021</span></div>
+            <h3>THENX</h3>
+            <p>Calisthenics training on web and mobile, 15M+ users. I led the move from a PHP API to Rails and from MySQL to PostgreSQL.</p>
+            <span class="work-link">thenx.com<svg class="i"><use href="#i-arrow"/></svg></span>
+          </a>
+          <a class="work reveal" href="https://www.3pillarglobal.com" target="_blank" rel="noopener">
+            <div class="work-top"><span class="tag">Product engineering</span><span class="years">2019 – 2020</span></div>
+            <h3>3Pillar Global</h3>
+            <p>Software products for clients around the world. Backend services, SQL tuning and better test and deploy pipelines.</p>
+            <span class="work-link">3pillarglobal.com<svg class="i"><use href="#i-arrow"/></svg></span>
+          </a>
+          <a class="work reveal" href="https://www.wolfpack-digital.com" target="_blank" rel="noopener">
+            <div class="work-top"><span class="tag">Agency</span><span class="years">2018 – 2019</span></div>
+            <h3>Wolfpack Digital</h3>
+            <p>Web and mobile apps built in Cluj for clients abroad. Rails backends, API integrations and CI improvements.</p>
+            <span class="work-link">wolfpack-digital.com<svg class="i"><use href="#i-arrow"/></svg></span>
+          </a>
+        </div>
+
+        <header class="sub-head reveal">
+          <h3>Independent work</h3>
+          <p>Products I designed and built end to end, from the first idea to the live site.</p>
+        </header>
+
+        <div class="work-grid">
+          <a class="work work-own reveal" href="https://biddo.ro" target="_blank" rel="noopener">
+            <div class="work-top"><span class="state state-soon">Launching soon</span><span class="years">2026</span></div>
+            <h3>Biddo</h3>
+            <p>Live shopping for Romania. Sellers go live on video, viewers chat and buy during the show, and the money is held until the parcel arrives.</p>
+            <ul class="stack"><li>NestJS</li><li>React</li><li>Stripe</li><li>LiveKit</li></ul>
+            <span class="work-link">biddo.ro<svg class="i"><use href="#i-arrow"/></svg></span>
+          </a>
+          <a class="work work-own reveal" href="https://atomic-performance.onrender.com" target="_blank" rel="noopener">
+            <div class="work-top"><span class="state state-live">Live</span><span class="years">2026</span></div>
+            <h3>Atomic Performance</h3>
+            <p>A phone-first app for physical trainers and their athletes. Packages, attendance, training plans, tests and a page where every athlete sees today's workout.</p>
+            <ul class="stack"><li>Next.js</li><li>React</li><li>Prisma</li><li>PostgreSQL</li></ul>
+            <span class="work-link">atomic-performance<svg class="i"><use href="#i-arrow"/></svg></span>
+          </a>
+          <a class="work work-own reveal" href="https://rxr-performance.ro" target="_blank" rel="noopener">
+            <div class="work-top"><span class="state state-live">Live</span><span class="years">2025</span></div>
+            <h3>RXR Performance</h3>
+            <p>My own car tuning workshop in Cluj-Napoca: engine and gearbox tuning, BMW coding and diagnostics. I run the shop and built its site.</p>
+            <ul class="stack"><li>My business</li><li>HTML</li><li>CSS</li><li>SEO</li></ul>
+            <span class="work-link">rxr-performance.ro<svg class="i"><use href="#i-arrow"/></svg></span>
+          </a>
+          <article class="work work-own work-static reveal">
+            <div class="work-top"><span class="state state-wip">In progress</span><span class="years">2026</span></div>
+            <h3>TuneLens</h3>
+            <p>A check-up for car tunes. Upload a datalog and get clear charts, a SAFE, REVIEW or PROBLEM verdict, and an AI-written review in seconds.</p>
+            <ul class="stack"><li>Rails</li><li>React</li><li>TypeScript</li><li>AI</li></ul>
+            <span class="work-link work-link-muted">Coming soon</span>
+          </article>
+          <article class="work work-own work-static reveal">
+            <div class="work-top"><span class="state state-private">Private</span><span class="years">2025 – 2026</span></div>
+            <h3>Assista AI</h3>
+            <p>An AI assistant that connects OpenAI, Google, Microsoft and Linear, with background jobs that keep every sync reliable.</p>
+            <ul class="stack"><li>Rails</li><li>Sidekiq</li><li>OpenAI</li><li>OAuth</li></ul>
+            <span class="work-link work-link-muted">Personal project</span>
+          </article>
+          <a class="work work-own work-gh reveal" href="https://github.com/raresroca05" target="_blank" rel="noopener">
+            <div class="work-top"><span class="state">Open source</span><span class="years">Code</span></div>
+            <h3>More on GitHub</h3>
+            <p>Experiments, forks and small tools I've written along the way.</p>
+            <span class="work-link"><svg class="i i-lead"><use href="#i-github"/></svg>github.com/raresroca05<svg class="i"><use href="#i-arrow"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="offclock" aria-labelledby="offclock-title">
+      <div class="wrap offclock-grid">
+        <div class="reveal">
+          <p class="kicker kicker-light"><span>04</span> Off the clock</p>
+          <h2 id="offclock-title">Cars, tuning, and the odd <em>sideways</em> lap.</h2>
+          <p>I'm deeply into cars: tuning them, changing them and driving them. So much that I opened my own tuning workshop, <a class="inline-link" href="https://rxr-performance.ro" target="_blank" rel="noopener">RXR Performance</a>, in Cluj-Napoca. Track days and some part-time drifting keep my focus sharp, and they taught me the same thing good engineering does.</p>
+        </div>
+        <blockquote class="quote reveal">
+          <p>“You've gotta deploy patience and you gotta love the process.”</p>
+          <footer>— my GitHub bio, and how I try to work</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="kicker"><span>05</span> Contact</p>
+          <h2>Let's build something that <em>lasts</em>.</h2>
+          <p class="section-lead">I'm open to long-term roles and interesting projects. Email is the fastest way to reach me.</p>
+        </header>
+
+        <div class="contact-main reveal">
+          <a class="email-big" href="mailto:rares.roca05@gmail.com">rares.roca05@gmail.com</a>
+          <button class="btn btn-ghost copy-btn" type="button" data-copy="rares.roca05@gmail.com"><svg class="i"><use href="#i-copy"/></svg><span>Copy email</span></button>
+        </div>
+
+        <ul class="contact-grid reveal">
+          <li>
+            <a href="https://www.linkedin.com/in/raresroca/" target="_blank" rel="noopener">
+              <svg class="i"><use href="#i-linkedin"/></svg>
+              <span><strong>LinkedIn</strong><small>in/raresroca</small></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/raresroca05" target="_blank" rel="noopener">
+              <svg class="i"><use href="#i-github"/></svg>
+              <span><strong>GitHub</strong><small>@raresroca05</small></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://x.com/raresroca05" target="_blank" rel="noopener">
+              <svg class="i"><use href="#i-x"/></svg>
+              <span><strong>X</strong><small>@raresroca05</small></span>
+            </a>
+          </li>
+          <li>
+            <a href="tel:+40744787446">
+              <svg class="i"><use href="#i-phone"/></svg>
+              <span><strong>Phone</strong><small>+40 744 787 446</small></span>
+            </a>
+          </li>
+          <li>
+            <div class="contact-static">
+              <svg class="i"><use href="#i-pin"/></svg>
+              <span><strong>Cluj-Napoca, Romania</strong><small>EET · remote-friendly</small></span>
+            </div>
+          </li>
+          <li>
+            <a href="rares-roca-cv.pdf" download>
+              <svg class="i"><use href="#i-download"/></svg>
+              <span><strong>CV</strong><small>PDF, 2 pages</small></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span>© <span id="year">2026</span> Rares Roca</span>
+      <span>Made in Cluj-Napoca</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
